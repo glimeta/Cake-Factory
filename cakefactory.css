@@ -209,7 +209,7 @@ h4{
 
 h5{
    margin-bottom: 20px;
-   margin-bottom: 20px;
+   margin-bottom: 10px;
    margin-top; 18px;
    font-size: 16px;  
    text-align: center;
@@ -225,7 +225,7 @@ h6{
    text-decoration: none;
    color: blue;
    border: 1px solid blue;
-   padding: 12px 34px;
+   padding: 12px 20px;
    font-size: 15px;
    background: transparent;
    cursor: pointer;   
@@ -654,31 +654,128 @@ h4 img {
    margin-left: 30px; 
 }
 
-.AboutUs h7{
-   width: 80%;
+
+
+/*---Additional Information*/
+.Additional-Information{
+  margin-left: 10%;
+}
+
+.More-Info li{
+   list-style: none;
+   display: inline-block;
+   padding: 12px;
+   position: relative;
+   text-align: center;
+}
+   
+   
+.More-Info ul li a{
+   font-size: 14px;
+   color: rgb(20, 19, 20);
+   text-align: center;
+}
+
+.More-Info ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #4336f4;
+   display: block;
    margin: auto;
+   transition: 0.5s;
+}
+
+.More-Info ul li:hover::after{
+   width: 100%
+}
+
+
+h7{
+   margin-bottom: 2px;
+   margin-top; 20px;
+   font-weight: 600;
+   font-size: 25px; 
+   text-align: start; 
+   padding: 5px;
+}
+
+h10 p{
+   font-size: 12px;
+   margin-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top; 18px;
    text-align: start;
-   padding-top: 100px;
+   padding: 15px;
+}
+ 
+h10{
+   font-weight: 600;
+   font-size: 18px; 
+   text-align: start; 
+   padding: 10px;
 }
 
-.AboutUs h10{
-   font-size: 20px 
-   font-weight: 300%;
-   line-weight: 22px;
-   padding: 5px;
+h12{
+   font-weight: 600;
+   font-size: 18px; 
+   text-align: start; 
+   padding: 10px;
 }
 
-.AboutUs h12{
-   font-size: 20px 
-   font-weight: 300%;
-   line-weight: 22px;
-   padding: 5px;
+h14{
+   font-weight: 600;
+   font-size: 18px; 
+   text-align: start; 
+   padding: 10px;
+
 }
 
-.AboutUs h14{
-   font-size: 20px 
-   font-weight: 300%;
-   line-weight: 22px;
-   padding: 5px;
+
+.DeliveryTimes-btn{
+   display: inline-block;
+   text-decoration: none;
+   color: black;
+   border: 1px solid blue;
+   padding: 1px 10px;
+   font-size: 15px;
+   background: transparent;
+   cursor: pointer;   
+}
+.DeliveryTimes-btn:hover{
+   border: 1px solid rgb(167, 162, 167);
+   background: rgb(161, 157, 161);
+   transition: 1s; 
 }
 
+.PaymentInformation-btn{
+   display: inline-block;
+   text-decoration: none;
+   color: black;
+   border: 1px solid blue;
+   padding: 1px 10px;
+   font-size: 15px;
+   background: transparent;
+   cursor: pointer;   
+}
+.PaymentInformation-btn:hover{
+   border: 1px solid rgb(167, 162, 167);
+   background: rgb(161, 157, 161);
+   transition: 1s; 
+}
+
+.ReturnPolicy-btn{
+   display: inline-block;
+   text-decoration: none;
+   color: black;
+   border: 1px solid blue;
+   padding: 1px 10px;
+   font-size: 15px;
+   background: transparent;
+   cursor: pointer;   
+}
+.ReturnPolicy-btn:hover{
+   border: 1px solid rgb(167, 162, 167);
+   background: rgb(161, 157, 161);
+   transition: 1s; 
+}
