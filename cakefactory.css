@@ -635,7 +635,40 @@ h4 img {
 }
 
 
+
 /*-----AboutUs-subheader---*/
+.AboutUs-nav-links ul li a{
+   font-size: 18px;
+   color: black;
+}
+
+.AboutUs-nav-links{
+   flex: 1;
+   text-align: right;
+}
+
+
+.AboutUs-nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+}
+
+.AboutUs-nav-links ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #4336f4;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+
+.AboutUs-nav-links ul li:hover::after{
+   width: 100%
+}
+
 .AboutUs h1{
    width: 80%;
    margin: auto;
