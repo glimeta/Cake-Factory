@@ -342,12 +342,21 @@ h6{
    width: 100%
 }
 
-/*---sub-header----*/
+
+
+/*---Products----*/
+.sub-header{
+   background-color: rgb(82, 17, 17);
+   background-position: center;
+   position: relative;
+   height: 100vh;
+   width: 100%;
+}
+
 .subheader-nav-links{
    flex: 1;
    text-align: right;
 }
-
 
 .subheader-nav-links ul li{
    list-style: none;
@@ -356,10 +365,9 @@ h6{
    position: relative;
 }
 
-
 .subheader-nav-links ul li a{
    font-size: 18px;
-   color: rgb(82, 7, 7);
+   color: rgb(172, 162, 180);
 }
 
 .subheader-nav-links ul li::after{
@@ -377,77 +385,197 @@ h6{
 }
 
 .subheader-centerbox img{
-   width: 500px;
+   width: 600px;
    position: center;
-   top:  40%;
+   top:  50%;
    left: 33%;
 }
 
 .subheader-centerbox h1{
    font-size: 32px;
-   color: rgb(129, 11, 11);
+   color:  lightgray;
    text-align: center;      
 }    
 
-.row1-WeddingCakes{
-   margin-top: 5%;
-   display: flex;
-   display: 1fr 1fr 1fr;
-   justify-content: space-between;
+.Intro-products{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 100px;
 }
 
-.column1-WeddingCakes{
-   flex-basis: 45%;
-   background:rgb(201, 194, 194);
-   border-radius:10px;
-   margin-bottom: 8%;
-   padding: 20px 12px;
-   box-sizing: border-box;
-   transition: 0.5s;       
+.Intro-products h1{
+   font-size: 20px 
+   font-weight: 300%;
+   line-weight: 22px;
+   padding: 10px;
 }
 
-.column1-WeddingCakes img{
-   width: 65%;
-   height: 65%;
-   margin: 15px;
+.Intro-products p{
+  font-size: 18px;
 }
 
-.column2-WeddingCakes{
-   flex-basis: 45%;
-   background:rgb(201, 194, 194);
-   border-radius:10px;
-   margin-bottom: 8%;
-   padding: 20px 12px;
+.products-container{
+   height: 100vh;
+   width: 100%;
+   margin-right: 100%;
+   display: grid;
+   grid-template-columns:1fr 1fr 1fr;
+   grid-template-rows:1fr 1fr 1fr;
+   grid-gap: 10px 10px; 
+   border-radius: 10px;
+   
+}
+
+.cell{
+  width: 100%; 
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+  align-items: center;
+  background: rgb(201, 194, 194);
+  border-radius: 10px;
+  margin-bottom: 3%;   
+}
+
+.cell cell-1{
+   margin-bottom: 10%;
    box-sizing: border-box;       
 }
 
-.column2-WeddingCakes img{
-   width: 65%;
-   height: 65%;
-   margin: 40px;
+.cell cell-1 h3{
+   font-size: 30px; 
+   font-weight: 300%;
+   padding: 5px;
+   position: relative;
 }
 
-h3{
-   text-align: center;
-   font-weight: 600;
-   margin: 10px 0;
+.cell cell-1 h4 img{
+   width: 30%
+   object fit;
 }
 
-column3-WeddingCakes{
-   flex-basis: 45%;
-   background:rgb(201, 194, 194);
-   border-radius:10px;
+.cell cell-2{
    margin-bottom: 8%;
-   padding: 20px 12px;
-   box-sizing: border-box;
-   transition: 0.5s;       
+   box-sizing: border-box;       
 }
 
-.column3-WeddingCakes img{
-   width: 65%;
-   height: 65%;
-   margin: 15px;
+.cell cell-2 h3{
+   font-size: 20px; 
+   font-weight: 300%;
+   padding: 10px;
+   position: relative;
 }
+
+.cell cell-2 h4 img{
+   width: 45%;
+   height: 45%;
+   margin: 40px;
+   object-fit: cover;
+}
+
+.products-footer{
+   text-align: center;
+}
+
+.products-links-munami-pages img{
+   width: 20px;
+   text-align: center;
+   
+}
+
+.products-links-munami-pages li{
+   list-style: none;
+   display: inline-block;
+   padding: 12px;
+   position: relative;
+   text-align: center;
+}
+
+
+.products-links-munami-pages ul li a{
+   font-size: 20px;
+   color: blueviolet;
+   text-align: center;
+}
+
+.products-links-munami-pages ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #4336f4;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+
+.products-links-munami-pages ul li:hover::after{
+   width: 100%
+}
+
+.products-row-footer img{
+   width: 20px;
+   text-align: center;
+}
+
+.products-row-footer li{
+   list-style: none;
+   display: inline-block;
+   padding: 12px;
+   position: relative;
+   text-align: center;
+}
+
+
+.products-row-footer ul li a{
+   font-size: 16px;
+   color: blueviolet;
+   text-align: center;
+}
+
+.products-row-footer ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #4336f4;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+
+.products-row-footer ul li:hover::after{
+   width: 100%
+}
+
+.products-more-info li{
+   list-style: none;
+   display: inline-block;
+   padding: 12px;
+   position: relative;
+   text-align: center;
+}
+
+
+.products-more-info ul li a{
+   font-size: 14px;
+   color: rgb(20, 19, 20);
+   text-align: center;
+}
+
+.products-more-info ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #4336f4;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+
+.products-more-info ul li:hover::after{
+   width: 100%
+}
+
 
 /*-----AboutUs-subheader---*/
 .AboutUs h1{
