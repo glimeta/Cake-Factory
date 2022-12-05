@@ -387,7 +387,7 @@ h6{
 .subheader-centerbox img{
    width: 600px;
    position: center;
-   top:  50%;
+   top:  30%;
    left: 33%;
 }
 
@@ -416,15 +416,13 @@ h6{
 }
 
 .products-container{
-   height: 100vh;
+   min-height: 100vh;
    width: 100%;
-   margin-right: 100%;
    display: grid;
    grid-template-columns:1fr 1fr 1fr;
-   grid-template-rows:1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr auto;
    grid-gap: 10px 10px; 
    border-radius: 10px;
-   
 }
 
 .cell{
@@ -435,44 +433,104 @@ h6{
   align-items: center;
   background: rgb(201, 194, 194);
   border-radius: 10px;
-  margin-bottom: 3%;   
+  margin-bottom: 2%;
+  box-sizing: border-box;   
 }
 
-.cell cell-1{
-   margin-bottom: 10%;
-   box-sizing: border-box;       
-}
-
-.cell cell-1 h3{
+h3{
    font-size: 30px; 
    font-weight: 300%;
    padding: 5px;
    position: relative;
 }
 
-.cell cell-1 h4 img{
-   width: 30%
-   object fit;
-}
-
-.cell cell-2{
-   margin-bottom: 8%;
-   box-sizing: border-box;       
-}
-
-.cell cell-2 h3{
-   font-size: 20px; 
-   font-weight: 300%;
-   padding: 10px;
+h4{
+   font-size: 18px; 
+   font-weight: 100%;
+   padding: 5px;
    position: relative;
 }
 
-.cell cell-2 h4 img{
-   width: 45%;
-   height: 45%;
-   margin: 40px;
+h4 img {
+   width: 50%;
+   height: 50%;
    object-fit: cover;
 }
+
+
+.Wcell{
+   width: 100%; 
+   font-size: 1rem;
+   text-align: center;
+   padding: 1rem;
+   align-items: center;
+   background: rgb(111, 107, 131);
+   border-radius: 10px;
+   margin-bottom: 2%;
+   box-sizing: border-box;   
+ }
+ 
+ h3{
+    font-size: 30px; 
+    font-weight: 300%;
+    padding: 5px;
+    position: relative;
+ }
+ 
+ h4{
+    font-size: 18px; 
+    font-weight: 100%;
+    padding: 5px;
+    position: relative;
+ }
+ 
+ h4 img {
+    width: 70%;
+    height: 80%;
+    object-fit: auto;
+ }
+
+.Wcell.cell-1 img{
+   width: 100%;
+   margin-top: 10%   
+}
+
+.Wcell.cell-2 img{
+   width: 90%;
+}
+
+.Wcell.cell-3 img{
+   width: 90%; 
+}
+
+.Wcell.cell-4 img{
+   width: 100%;
+}
+
+.Wcell.cell-5 img{
+   width: 100%;
+}
+ 
+.Wcell.cell-6 img{
+   width: 90%;
+}
+
+.Wcell.cell-7 img{
+   width: 90%;
+   height: 100%;
+   margin-top: 10% 
+}
+
+.Wcell.cell-8 img{
+   width: 90%;
+   height: 70%
+}
+
+.Wcell.cell-9 img{
+   width: 90%;
+}
+
+
 
 .products-footer{
    text-align: center;
