@@ -6,10 +6,10 @@
 }
 
 .header{
-    background-color: rgb(82, 17, 17);
+    background-image: url(Images/background.jpg);
     background-position: center;
     position: relative;
-    min-height: 100vh;
+    min-height: 5vh;
     width: 100%;
 }
 
@@ -41,15 +41,15 @@
 
 
  .nav-links ul li a{
-    font-size: 18px;
-    color: rgb(172, 162, 180);
+    font-size: 20px;
+    color: purple;
  }
 
  .nav-links ul li::after{
     content: '';
     width: 0%;
     height: 2px;
-    background: #4336f4;
+    background: #1607e2;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -61,16 +61,25 @@
  
 .centerbox img{
     width: 500px;
-    position: center;
     top:  40%;
     left: 33%;
+   
 }
 
 .centerbox h1{
-    font-size: 32px;
-    color: lightgray;
+    font-size: 40px;
+    font-style: italic;
+    color: purple;
     text-align: center;      
 }    
+
+.centerbox h2{
+   font-size: 20px;
+   color: purple;
+   text-align: center; 
+   padding-top: 2%
+}
+
  
 .Intro{
     width: 80%;
@@ -83,7 +92,7 @@
     font-size: 20px 
     font-weight: 300%;
     line-weight: 22px;
-    padding: 10px;
+    padding: 1px;
 }
 
 .Intro p{
@@ -183,10 +192,14 @@ h3{
     padding: 5px;
 }
 
-.About h2{
+.about-column h2{
    font-size: 18px;
    padding: 2px
-   text-align: start;
+   text-align: start;   
+}
+
+h2{
+   color: black;   
 }
 
 .About h2 img{
