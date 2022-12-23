@@ -437,6 +437,34 @@ h6{
   box-sizing: border-box;   
 }
 
+.cell.cell-1 img{
+   width: 52%;   
+}
+
+.cell.cell-2 img{
+   width: 52%;   
+}
+
+.cell.cell-3 img{
+   width: 58%;   
+}
+
+.cell.cell-6 img{
+   width: 80%;   
+}
+
+.cell.cell-7 img{
+   width: 60%;   
+}
+
+.cell.cell-8 img{
+   width: 58%;   
+}
+
+.cell.cell-9 img{
+   width: 48%;   
+}
+
 h3{
    font-size: 30px; 
    font-weight: 300%;
@@ -517,8 +545,8 @@ h4 img {
 
 .Wcell.cell-7 img{
    width: 90%;
-   height: 100%;
-   margin-top: 10% 
+   height:100%
+   
 }
 
 .Wcell.cell-8 img{
